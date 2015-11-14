@@ -17,7 +17,6 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-	background: ; 
 	margin: 0; 
 	padding: 0;
 	}
@@ -30,9 +29,6 @@ h3 {
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #7D775C;
-	border: 1px;
-	border-style: solid;
-	border-width: 3px;
 	}
 a:link { 
 	font-weight: bold; 
@@ -55,7 +51,6 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	background-color: lightskyblue; 
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
@@ -75,12 +70,9 @@ header h1 {
 	float: left;
 	text-align: center;
 
-	text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;
 	}
 header h2 { 
-	background:  
 	margin-top: 58px; 
 	margin-bottom: 40px; 
 	width: 200px; 
@@ -88,23 +80,22 @@ header h2 {
 	float: right;
 	border-style: solid;
 	border-width: 3px;
-
-	text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;
 	}
+
 header {
 	padding-top: 20px;
 	height: 87px;
-	background-color:
 }
 
-.summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
-	float: left;
+.summary { 
+	width: 200px; 
+	padding: 43px;
 	background-color: lightsalmon;
+	position: relative;
+	top: 5px;
+	left: 1px;
+	border-radius: 25px;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
@@ -116,31 +107,58 @@ header {
 	padding: 10px;
 	background-color: blue;
 	border-radius: 25px;
-	width: 400px;
+	width: 500px;
 	margin: auto;
 	}
-.supporting {	
-	clear: right;
-	width: 400px;
-	border-radius: 25px;
-	}
+
+
+.small_explanation {
+	background-color: red;
+	float: left;
+	width: 250px;
+	height: 200px;
+	padding: 10px;
+}
 .explanation {
 	background-color: orange;
-	margin-top: 0px;
-	margin-left: 200px;
-	width: 400px;
+	position: relative;
+	left: 500px;
+	width: 500px;
+	height: 200px;
 	border-radius: 25px;
+	padding: 10px;
+}
+.small_participation {
+	background-color: yellowgreen;
+	float: left;
+	width: 250px;
+	height: 200px;
 	padding: 10px;
 }
 .participation {
 	background-color: red;
-	width: 400px;
+	position: relative;
+	left: 200px;
+	width: 500px;
+	height: 200px;
+	border-radius: 25px;
+	padding: 10px;
 }
 .benefits {
 	background-color: lightyellow;
+	width: 500px;
+	position: relative;
+	left: 500px;
+	border-radius: 25px;
+    padding: 10px;
 }
 .requirements {
 	background-color: lightgreen;
+	position: relative;
+	left: 200px;
+	width: 500px;
+	border-radius: 25px;
+	padding: 10px;
 }
 footer { 
 	text-align: center; 
@@ -151,51 +169,42 @@ footer a:link, footer a:visited {
 	}
 
 .sidebar {
-	margin-left: 600px; 
+	margin-left: 300px; 
 	position: absolute; 
-	top: 0; 
+	top: 100px; 
 	right: 0;
 	background-color: lightsteelblue;
 	}
 .sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
-	background: transparent url(paper-bg.jpg) top left repeat-y; 
+	font: 10px verdana, sans-serif;  
 	padding: 10px; 
-	margin-top: 150px; 
+	margin-top: 0px;
 	width: 100px; 
 	border-style: solid;
 	border-color: white;
 	border-width: 3px
 	}
+
 .sidebar h3.select { 
 	background: transparent url(h3.gif) no-repeat top left; 
 	margin: 10px 0 5px 0; 
 	width: 97px; 
 	height: 16px; 
-
-	text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;
 	}
 .sidebar h3.archives { 
 	background: transparent url(h5.gif) no-repeat top left; 
 	margin: 25px 0 5px 0; 
 	width:57px; 
 	height: 14px; 
-
-	text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;
 	}
 .sidebar h3.resources { 
 	background: transparent url(h6.gif) no-repeat top left; 
 	margin: 25px 0 5px 0; 
 	width:63px; 
 	height: 10px; 
-
-	text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;
 	}
 
 
